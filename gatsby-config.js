@@ -41,10 +41,11 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: "data",
+        path: "./src/data/",
       },
-      __key: "pages",
+      __key: "data",
     },
+    "gatsby-transformer-remark"
   ],
 };

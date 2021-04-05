@@ -1,3 +1,15 @@
 .font-24 {
     font-size: 24px;
 }
+
+.u-bold {
+    font-weight: 700;
+}
+
+.padding {
+    &-top {
+        &-12 {
+            padding-top: 12px;
+        }
+    }
+}

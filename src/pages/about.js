@@ -4,7 +4,7 @@ import {graphql} from "gatsby";
 
 import Header from "../components/Header";
 
-import computePageData from "../pageData/about/Index";
+import computePageData from "../containers/about/Index";
 
 const About = (props) => {
     //console.log("props", data.site.siteMetadata.title);

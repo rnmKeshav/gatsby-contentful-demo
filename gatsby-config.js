@@ -1,15 +1,20 @@
+const dotEnv = require("dotenv");
+
+if (process.env.NODE_ENV !== "production") {
+  dotEnv.config();
+}
 module.exports = {
   siteMetadata: {
     title: "gatsby-demo",
   },
   plugins: [
-    // {
-    //   resolve: "gatsby-source-contentful",
-    //   options: {
-    //     accessToken: "xxx",
-    //     spaceId: "xxx",
-    //   },
-    // },
+    {
+      resolve: "gatsby-source-contentful",
+      options: {
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        spaceId: "qnwj150cvt64",
+      },
+    },
     "gatsby-plugin-sass",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",

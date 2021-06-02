@@ -1,3 +1,7 @@
+### What
+ - This is a demo gatsby project which usage local markdown files to create blog list and post
+ - Integration with contentful CMS to create dynamic route and pages for blog
+
 ### Dev Setup
  - `npm install`
  -  `npm start`

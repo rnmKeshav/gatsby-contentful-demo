@@ -15,6 +15,7 @@ module.exports = {
         spaceId: "qnwj150cvt64",
       },
     },
+    `@contentful/gatsby-transformer-contentful-richtext`,
     "gatsby-plugin-sass",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
